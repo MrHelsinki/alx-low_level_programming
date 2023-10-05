@@ -3,7 +3,8 @@
 /**
  * main - entry point
  *
- * description : prints "with proper grammar, but the outcome is a piece of art"
+ * description : prints "with proper grammar, but the outcome
+ * is a piece of art"
  *
  * Return: Always 0 (success)
  */
