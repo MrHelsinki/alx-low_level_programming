@@ -3,7 +3,9 @@
 /**
   * _islower - print 1 if lower case ; 0 if else
   *
-  * Return - 1 if lower case - 0 if else
+  * @c: letter being tested
+  *
+  * Return: 1 if lower case - 0 if else
   */
 
 int _islower(int c)
