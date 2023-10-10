@@ -12,7 +12,7 @@ int main(void)
     int i;
 
 	for ( i ; i < msgLen ; i++){
-		print(message[i]);
+		printChar(message[i]);
 	}
 
 	return (0);

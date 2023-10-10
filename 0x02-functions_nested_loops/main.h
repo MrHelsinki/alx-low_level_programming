@@ -5,7 +5,7 @@
   *
   * Return: 0 on Success
   */
-int print(char x)
+int printChar(char x)
 {
-	return (write(STDOUT_FILENO, &x, 1));
+	return (write(1, &x, 1));
 }
