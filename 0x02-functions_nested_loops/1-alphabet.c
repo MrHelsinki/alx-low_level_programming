@@ -5,12 +5,13 @@
   *
   * Return: 0 on Success
   */
-void print_alphabet()
+void print_alphabet(void)
 {
 	char i;
+
 	i = 'a';
 
-	while ( i < 'z')
+	while (i < 'z')
 	{
 		_putchar(i);
 		i++;
