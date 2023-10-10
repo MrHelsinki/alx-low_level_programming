@@ -10,8 +10,9 @@ int main(void)
 {
 	char message[] = "_putchar\n";
 	size_t msgLen = strlen(message);
+    int i;
 
-	for (int i, i < msgLen, i++)
+	for ( i ; i < msgLen ; i++)
 	{
 		print(message[i]);
 	}
