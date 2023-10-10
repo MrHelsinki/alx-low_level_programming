@@ -1,4 +1,5 @@
 #include <unistd.h>
+#include <main.h>
 
 /**
   * print - print char to console
@@ -6,7 +7,7 @@
   *
   * Return: 0 on Success
   */
-int printChar(char x)
+int _printchar(char x)
 {
 	return (write(STDOUT_FILENO, &x, 1));
 }
