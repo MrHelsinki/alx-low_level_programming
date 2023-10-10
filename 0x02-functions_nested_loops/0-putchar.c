@@ -8,11 +8,13 @@
   */
 int main(void)
 {
-	char message = "_putchar\n";
+	char message[] = "_putchar\n";
 	size_t msgLen = strlen(message);
 
-	for(int i, msgLen, i++)
-		print(message[i])
-	
+	for (int i, i < msgLen, i++)
+	{
+		print(message[i]);
+	}
+
 	return (0);
 }
