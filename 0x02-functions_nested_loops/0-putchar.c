@@ -9,9 +9,8 @@ int main(void)
 {
 	char message[] = "_putchar\n";
 	int msgLen = 10;
-    int i;
 
-	printChar(message[0]);
+	printChar(message[msgLen - 10]);
 
 	return (0);
 }
