@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 
 /**
   * main - Entry point
@@ -9,11 +8,10 @@
 int main(void)
 {
 	char message[] = "_putchar\n";
-	size_t msgLen = strlen(message);
+	int msgLen = 10;
     int i;
 
-	for ( i ; i < msgLen ; i++)
-	{
+	for ( i ; i < msgLen ; i++){
 		print(message[i]);
 	}
 
