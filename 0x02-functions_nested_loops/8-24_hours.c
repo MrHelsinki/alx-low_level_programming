@@ -19,14 +19,10 @@ void jack_bauer(void)
 
 	int d;
 
-	int len;
-
 	a = 0;
 	b = 0;
 	c = 0;
 	d = 0;
-
-	len = 5;
 
 
 	while(d < 10)
@@ -50,7 +46,7 @@ void jack_bauer(void)
 			c++;
 			d = -1;
 		}
-		d++
+		d++;
 		_putchar(a);
 		_putchar(b);
 		_putchar(':');
