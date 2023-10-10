@@ -20,4 +20,6 @@ int print_alphabet()
 	{
 		printChar(alphabet[i]);
 	}
+
+	return (0);
 }
