@@ -7,8 +7,8 @@
   */
 int main(void)
 {
-	char message[] = "_putchar";
-	int msgLen = 8;
+	char message[] = "_putchar\n";
+	int msgLen = 10;
 	int i;
 
 	for(i = 0; i < msgLen; i++)
