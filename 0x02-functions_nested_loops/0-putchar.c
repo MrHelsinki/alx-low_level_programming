@@ -11,9 +11,9 @@ int main(void)
 	int msgLen = 8;
 	int i;
 
-	for(i = 8; i < 0; i--)
+	for(i = 0; i < msgLen; i++)
 	{
-		printChar(message[msgLen - i]);
+		printChar(message[i]);
 	}
 
 	return (0);
