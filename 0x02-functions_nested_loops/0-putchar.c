@@ -9,12 +9,11 @@ int main(void)
 {
 	char message[] = "_putchar\n";
 	int msgLen = 10;
-	int i = 10;
+	int i;
 
-	for(i; i < 0; i--)
+	for(i = 10; i < 0; i--)
 	{
-		printChar(message[msgLen - 10]);
+		printChar(message[msgLen - i]);
 	}
-
 	return (0);
 }
