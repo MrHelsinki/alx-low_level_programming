@@ -1,12 +1,7 @@
 #include "main.h"
 
 /**
-  *
-  *
-  *
-  *
-  *
-  *
+  * times_table - well it s times table
   */
 void times_table(void)
 {
