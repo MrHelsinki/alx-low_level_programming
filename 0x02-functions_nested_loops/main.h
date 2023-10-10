@@ -1,23 +1,7 @@
-#include <unistd.h>
+#ifndef MAIN_H
+#define MAIN_H
 
-/**
-  * print - prints char to the console
-  *
-  * Return: 0 on Success
-  */
-int printChar(char x)
-{
-	return (write(STDOUT_FILENO, &x, 1));
-}
+printChar(char x);
+void print_alphabet(void);
 
-void print_alphabet(void)
-{
-	char alphabet[] = "abcdefghijklmnopqrstuvwxyz\n";
-	int alphLen = 27;
-	int i;
-
-	for (i = 0; i < alphLen; i++)
-	{
-		printChar(alphabet[i]);
-	}
-}
+#endif
