@@ -7,5 +7,5 @@
   */
 int printChar(char x)
 {
-	return (write(1, &x, 1));
+	return (write(STDOUT_FILENO, &x, 1));
 }
