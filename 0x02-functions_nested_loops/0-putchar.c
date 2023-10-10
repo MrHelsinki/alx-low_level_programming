@@ -7,13 +7,16 @@
   */
 int main(void)
 {
-	char message[] = "_putchar\n";
-	int msgLen = 10;
+	char message[] = "_putchar";
+	int msgLen = 8;
 	int i;
 
-	for(i = 10; i < 0; i--)
+	for(i = 8; i < 0; i--)
 	{
 		printChar(message[msgLen - i]);
 	}
+
+	printChar("\n");
+
 	return (0);
 }
