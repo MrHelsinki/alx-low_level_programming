@@ -16,7 +16,7 @@ int main(void)
 		printChar(message[msgLen - i]);
 	}
 
-	printChar("\n");
+	printChar(char \n);
 
 	return (0);
 }
