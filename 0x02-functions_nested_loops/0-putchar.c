@@ -8,10 +8,10 @@
 int main(void)
 {
 	char message[] = "_putchar\n";
-	int msgLen = 10;
+	int msgLen = 9;
 	int i;
 
-	for(i = 0; i < msgLen; i++)
+	for (i = 0; i < msgLen; i++)
 	{
 		printChar(message[i]);
 	}
