@@ -7,6 +7,6 @@
   */
 int print(char x)
 {
-	write(STDOUT, &x, 1);
+	write(STDOUT_FILENO, &x, 1);
 	return (0);
 }
