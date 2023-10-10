@@ -47,10 +47,10 @@ void jack_bauer(void)
 			d = -1;
 		}
 		d++;
-		_putchar(a);
-		_putchar(b);
-		_putchar(':');
-		_putchar(c);
-		_putchar(d);
+		_putchar(a + '0');
+		_putchar(b + '0');
+		_putchar(58);
+		_putchar(c + '0');
+		_putchar(d + '0');
 	}
 }
