@@ -11,18 +11,15 @@ int print_last_digit(int n)
 {
 	int abs_n;
 
-	int nindex;
+	int x;
 
 	if (n < 0)
 		abs_n = -n;
 	else
 		abs_n = n;
 
-	while (abs_n > 9)
-	{
-		abs_n /= 10;
-		nindex++;
-	}
+	x = abs_n % 10;
 
-    _putchar(abs_n[nindex]);
+	_putchar(x + '0');
+	return (x);
 }
