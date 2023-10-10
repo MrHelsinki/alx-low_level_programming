@@ -20,6 +20,6 @@ void print_alphabet(void)
 
 	for (i = 0; i < alphLen; i++)
 	{
-		printChar(alphabet[i]);
+		_printchar(alphabet[i]);
 	}
 }
