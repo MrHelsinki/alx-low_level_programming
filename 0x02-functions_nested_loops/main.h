@@ -12,5 +12,13 @@ int printChar(char x)
 
 int print_alphabet(char x)
 {
-	printChar(char x);
+	char alphabet[] = "abcdefghijklmnopqrstuvwxyz\n";
+	int alphLen = 27;
+	int i;
+
+	for (i = 0; i < alphLen; i++)
+	{
+		printChar(alphabet[i]);
+	}
+
 }
