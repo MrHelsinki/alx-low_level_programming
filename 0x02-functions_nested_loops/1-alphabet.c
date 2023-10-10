@@ -7,7 +7,7 @@
   */
 int main(void)
 {
-	char alphabet[] = "abcdefghijklmnopqrstuvwxyz\n"
+	char alphabet[] = "abcdefghijklmnopqrstuvwxyz\n";
 	int alphLen = 27;
 	int i;
 
