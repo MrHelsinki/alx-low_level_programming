@@ -25,5 +25,4 @@ int print_last_digit(int n)
 	}
 
     _putchar(abs_n[nindex]);
-	return (abs_n[nindex]);
 }
