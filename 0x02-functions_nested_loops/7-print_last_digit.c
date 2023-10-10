@@ -11,7 +11,7 @@ int print_last_digit(int n)
 {
 	int abs_n;
 
-	int nil;
+	int nindex;
 
 	if (n < 0)
 		abs_n = -n;
@@ -21,8 +21,9 @@ int print_last_digit(int n)
 	while (abs_n > 9)
 	{
 		abs_n /= 10;
-		nil++;
+		nindex++;
 	}
 
-	return (n[nil]);
+    _putchar(abs_n[nindex]);
+	return (abs_n[nindex]);
 }
