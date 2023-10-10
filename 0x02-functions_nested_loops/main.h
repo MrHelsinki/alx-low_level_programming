@@ -10,7 +10,7 @@ int printChar(char x)
 	return (write(STDOUT_FILENO, &x, 1));
 }
 
-int print_alphabet(char x)
+int print_alphabet()
 {
 	char alphabet[] = "abcdefghijklmnopqrstuvwxyz\n";
 	int alphLen = 27;
@@ -20,5 +20,4 @@ int print_alphabet(char x)
 	{
 		printChar(alphabet[i]);
 	}
-
 }
