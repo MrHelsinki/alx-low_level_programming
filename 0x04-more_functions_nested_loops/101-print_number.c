@@ -3,6 +3,7 @@
 /**
   * print_number - prints num (the hard way)
   * @n: num
+  * Return: 0
   */
 int print_number(int n)
 {
@@ -23,4 +24,6 @@ int print_number(int n)
 	}
 
 	_putchar((i % 10) + '0');
+
+	return (0);
 }
