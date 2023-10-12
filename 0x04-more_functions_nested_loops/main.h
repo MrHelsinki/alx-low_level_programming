@@ -1,17 +1,17 @@
-#include "main.h"
+#ifndef FILE_MAIN
+#define FILE_MAIN
 
-/**
- * print_numbers - prints the numbers, from 0 to 9,
- * followed by a new line
- */
-void print_numbers(void)
-{
-	int i;
+int _putchar(char c);
+int _isupper(int c);
+int _isdigit(int c);
+int mul(int a, int b);
+void print_numbers(void);
+void print_most_numbers(void);
+void more_numbers(void);
+void print_line(int n);
+void print_diagonal(int n);
+void print_square(int size);
+void print_triangle(int size);
+void print_number(int n);
 
-	for (i = 0; i < 10; i++)
-	{
-		_putchar(i + '0');
-	}
-
-	_putchar('\n');
-}
+#endif
