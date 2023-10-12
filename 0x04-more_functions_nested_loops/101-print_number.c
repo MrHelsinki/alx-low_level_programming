@@ -3,11 +3,10 @@
 /**
   * print_number - prints num (the hard way)
   * @n: num
-  * Return: 0
   */
 int print_number(int n)
 {
-	int i;
+	unsigned int i;
 
 	if (n < 0)
 	{
@@ -24,6 +23,4 @@ int print_number(int n)
 	}
 
 	_putchar((i % 10) + '0');
-
-	return (0);
 }
