@@ -2,17 +2,13 @@
 
 /**
   * print_numbers - prints from 1 to 9
-  * Return - 0
+  * Return - void
   */
 void print_numbers(void)
 {
-	char stringy[11];
-
-	stringy = "0123456789\n";
-
 	int i;
 
-	i = 0;
-	while (i <= 11)
-		_putchar(string[i]);
+	for (i = 0; i < 10; i++)
+		_putchar(i + '0');
+	_putchar('\n');
 }
