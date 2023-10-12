@@ -12,7 +12,8 @@ void print_numbers(void)
 
 	int i;
 
-	for (i = 0; i < 11; i++)
+	i = 0;
+	while (i <= 11)
 		_putchar(string[i]);
 
 	return (0);
