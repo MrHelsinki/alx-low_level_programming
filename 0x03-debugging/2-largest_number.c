@@ -5,7 +5,7 @@
 * @a: first num
 * @b: second num
 * @c: third num
-
+*
 * Return: result
 */
 
