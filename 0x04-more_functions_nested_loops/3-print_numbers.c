@@ -6,9 +6,9 @@
   */
 void print_numbers(void)
 {
-	char string[11];
+	char stringy[11];
 
-	string[11] = "0123456789\n";
+	stringy = "0123456789\n";
 
 	int i;
 
