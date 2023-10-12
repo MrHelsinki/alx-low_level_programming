@@ -15,6 +15,4 @@ void print_numbers(void)
 	i = 0;
 	while (i <= 11)
 		_putchar(string[i]);
-
-	return (0);
 }
