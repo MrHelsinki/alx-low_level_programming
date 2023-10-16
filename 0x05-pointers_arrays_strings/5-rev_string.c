@@ -10,8 +10,7 @@ void rev_string(char *s)
 
 	int i;
 
-	char revstring[999];
-
+	len = 0;
 	i = 0;
 	strstart = s;
 
@@ -22,6 +21,8 @@ void rev_string(char *s)
 
 	s--;
 
+    char revstring[999]; 
+
 	while (s >= strstart)
 	{
 		revstring[i] = *s;
@@ -29,7 +30,6 @@ void rev_string(char *s)
 		s--;
 	}
 
-	revstring[i] = '\0';
 	strcpy(s, revstring);
 
 
