@@ -23,7 +23,9 @@ void rev_string(char *s)
 
 	while (s < end)
 	{
+		char temp = *s;
 		*s = *end;
+		*end = temp;
 		s++;
 		end--;
 	}
