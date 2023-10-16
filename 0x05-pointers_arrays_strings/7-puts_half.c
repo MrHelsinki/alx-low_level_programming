@@ -14,13 +14,20 @@ void puts_half(char *str)
 	int halflen;
 
 	len = 0;
-	
+
 	while (*tmp)
 	{
 		len++;
 		tmp++;
 	}
-	halflen = len / 2;
+	
+	if (len % 2 != 0)
+	{
+		halflen = (len / 2) + 1;
+	} else
+	{
+		halflen = len / 2;
+	}
 
 	str += halflen;
 	while (*str)
@@ -30,5 +37,5 @@ void puts_half(char *str)
 	}
 
 	_putchar('\n');
-	
+
 }
