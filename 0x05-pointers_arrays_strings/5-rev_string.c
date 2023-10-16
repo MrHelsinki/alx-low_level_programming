@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <string.h>
 /**
   * rev_string - func
   * @s: par
