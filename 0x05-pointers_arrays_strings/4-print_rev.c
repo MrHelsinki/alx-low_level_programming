@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
-  *
-  *
-  *
+  * print-rev - func
+  * @s: par
   */
 void print_rev(char *s)
 {
