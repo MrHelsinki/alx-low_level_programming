@@ -10,7 +10,7 @@ void rev_string(char *s)
 
 	int i;
 
-	char revstring[99];
+	char revstring[999];
 
 	i = 0;
 	strstart = s;
@@ -29,7 +29,7 @@ void rev_string(char *s)
 		s--;
 	}
 
-	revstring[i] = '\0';
+	revstring[i+1] = '\0';
 	strcpy(s,revstring);
 
 
