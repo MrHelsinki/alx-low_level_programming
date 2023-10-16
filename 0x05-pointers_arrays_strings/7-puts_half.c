@@ -11,21 +11,18 @@ void puts_half(char *str)
 
 	char *tmp = str;
 
+	int halflen;
+
 	len = 0;
+	
 	while (*tmp)
 	{
 		len++;
 		tmp++;
 	}
-
-	int halflen;
-
 	halflen = len / 2;
 
-	int i;
-
 	str += halflen;
-
 	while (*str)
 	{
 		_putchar(*str);
