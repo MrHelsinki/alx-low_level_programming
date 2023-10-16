@@ -2,7 +2,7 @@
 
 /**
   * reset_to_98 - func
-  * @*n: par
+  * @n: par
   */
 void reset_to_98(int *n)
 {
