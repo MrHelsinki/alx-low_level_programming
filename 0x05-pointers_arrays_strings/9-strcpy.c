@@ -6,7 +6,7 @@
   * @dest: par 2
   * Return: pointer
   */
-void *_strcpy(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
 	char *destination = dest;
 
