@@ -29,8 +29,8 @@ void rev_string(char *s)
 		s--;
 	}
 
-	revstring[i+1] = '\0';
-	strcpy(s,revstring);
+	revstring[i] = '\0';
+	strcpy(s, revstring);
 
 
 }
