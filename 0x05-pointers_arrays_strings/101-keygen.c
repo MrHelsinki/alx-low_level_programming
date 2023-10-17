@@ -9,7 +9,7 @@
   */
 int main(void)
 {
-	int random_pas;
+	int random_pass;
 
 	srand(time(NULL));
 	random_pass = rand();
