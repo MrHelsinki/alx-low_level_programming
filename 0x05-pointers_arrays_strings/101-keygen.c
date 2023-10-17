@@ -1,9 +1,16 @@
 #include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
 
 
+/**
+  * main - func
+  * Return: password
+  */
 int main(void)
 {
+	srand(time(NULL));
+	random_pass = rand();
 
-	printf("Hello World");
-	return (0);
+	return (random_pass);
 }
