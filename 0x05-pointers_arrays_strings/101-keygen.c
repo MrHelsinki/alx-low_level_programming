@@ -2,7 +2,6 @@
 #include <time.h>
 #include <stdlib.h>
 
-
 /**
   * main - func
   * Return: 0
@@ -14,7 +13,7 @@ int main(void)
 	srand(time(NULL));
 	random_pass = rand();
 
-	printf("%d\n",random_pass);
+	printf("%i\n", random_pass);
 
 	return (0);
 }
