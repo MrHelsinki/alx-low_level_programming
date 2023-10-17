@@ -5,14 +5,16 @@
 
 /**
   * main - func
-  * Return: password
+  * Return: 0
   */
 int main(void)
 {
 	int random_pass;
 
-	srand(time(0));
+	srand(time(NULL));
 	random_pass = rand();
 
-	return (random_pass);
+	printf("%d\n",random_pass);
+
+	return (0);
 }
