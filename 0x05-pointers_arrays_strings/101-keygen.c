@@ -11,7 +11,7 @@ int main(void)
 {
 	int random_pass;
 
-	srand(time(NULL));
+	srand(time(0));
 	random_pass = rand();
 
 	return (random_pass);
