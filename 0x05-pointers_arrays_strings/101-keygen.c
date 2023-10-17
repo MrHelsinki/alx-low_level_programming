@@ -9,6 +9,8 @@
   */
 int main(void)
 {
+	int random_pas;
+
 	srand(time(NULL));
 	random_pass = rand();
 
