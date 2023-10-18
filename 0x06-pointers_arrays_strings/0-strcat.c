@@ -17,23 +17,21 @@ char *_strcat(char *dest, char *src)
 	src_len = 0;
 	i = 0;
 
-	while (*dest)
+	while (des[des_len] != '\0')
 	{
 		des_len++;
-		dest++;
 	}
 
-	while (*src)
+	while(src[src_len] != '\0')
 	{
 		src_len++;
-		src++;
 	}
 
 	for (i = 0; i < src_len; i++)
 	{
-		*des[des_len] = *src[i];
+		des[des_len] = src[i];
 		des_len++;
 	}
 
-	*des[des_len] = 48;
+	des[des_len] = 48;
 }
