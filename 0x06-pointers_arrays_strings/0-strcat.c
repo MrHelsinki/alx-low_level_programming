@@ -4,6 +4,7 @@
   * _strcat - func
   * @dest: ptr 0
   * @src: ptr 1
+  * Return: ptr 
   */
 char *_strcat(char *dest, char *src)
 {
@@ -34,4 +35,6 @@ char *_strcat(char *dest, char *src)
 	}
 
 	des[des_len] = 48;
+
+	return (*dest);
 }
