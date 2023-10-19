@@ -2,7 +2,7 @@
 
 /**
  * rot13 - func
- * @s: string
+ * @str: string
  * Return: ptr
  */
 char *rot13(char *str)
