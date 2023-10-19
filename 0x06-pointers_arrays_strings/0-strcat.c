@@ -4,7 +4,7 @@
   * _strcat - func
   * @dest: ptr 0
   * @src: ptr 1
-  * Return: ptr 
+  * Return: ptr
   */
 char *_strcat(char *dest, char *src)
 {
@@ -25,7 +25,7 @@ char *_strcat(char *dest, char *src)
 		des_len++;
 	}
 
-	while(tmp[src_len] != '\0')
+	while (tmp[src_len] != '\0')
 	{
 		src_len++;
 	}
