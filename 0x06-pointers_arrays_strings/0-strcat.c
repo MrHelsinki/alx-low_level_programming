@@ -14,6 +14,8 @@ char *_strcat(char *dest, char *src)
 
 	int i;
 
+	char *tmp = src;
+
 	des_len = 0;
 	src_len = 0;
 	i = 0;
@@ -23,18 +25,18 @@ char *_strcat(char *dest, char *src)
 		des_len++;
 	}
 
-	while(src[src_len] != '\0')
+	while(tmp[src_len] != '\0')
 	{
 		src_len++;
 	}
 
 	for (i = 0; i < src_len; i++)
 	{
-		dest[des_len] = src[i];
+		dest[des_len] = tmp[i];
 		des_len++;
 	}
 
-	dest[des_len] = 48;
+	dest[des_len] = '\0';
 
 	return (dest);
 }
