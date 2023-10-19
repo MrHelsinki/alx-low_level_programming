@@ -1,27 +1,27 @@
 #include "main.h"
 
 /**
- * rot13 - func
- * @str: string
- * Return: ptr
+ * rot13 -  func
+ * @s: par string
+ * Return: encode string ptr
  */
-char *rot13(char *str)
+char *rot13(char *s)
 {
 	int i = 0;
 
-	while (str[i] != '\0')
+	while (s[i] != '\0')
 	{
-		while ((str[i] >= 'a' && str[i] <= 'z') ||
-				(str[i] >= 'A' && str[i] <= 'Z'))
+		while ((s[i] >= 'a' && s[i] <= 'z') ||
+				(s[i] >= 'A' && s[i] <= 'Z'))
 		{
-			if ((str[i] >= 'a' && str[i] <= 'm') ||
-					(str[i] >= 'A' && str[i] <= 'M'))
-				str[i] += 13;
+			if ((s[i] >= 'a' && s[i] <= 'm') ||
+					(s[i] >= 'A' && s[i] <= 'M'))
+				s[i] += 13;
 			else
-				str[i] -= 13;
+				s[i] -= 13;
 			i++;
 		}
 		i++;
 	}
-	return (str);
+	return (s);
 }
