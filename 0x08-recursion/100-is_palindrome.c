@@ -25,7 +25,7 @@ int _strlen_recursion(char *s)
 }
 
 /**
- * check_pal - func
+ * check_palindrome - func
  * @s: par
  * @i: par
  * @len: par
