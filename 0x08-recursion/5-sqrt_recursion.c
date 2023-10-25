@@ -25,7 +25,7 @@ int sqrt_recursion_var(int n, int i)
 		return (i);
 
 	if (i * i > n)
-		return (-1)
+		return (-1);
 
 	sqrt_recursion_var(n, i + 1);
 }
