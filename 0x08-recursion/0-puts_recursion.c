@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-  *_puts_recrusion - func
+  *_puts_recursion - func
   *@s: par
   */
 
@@ -11,6 +11,8 @@ void _puts_recursion(char *s)
 	{
 		_putchar(*s);
 		_puts_recursion(s + 1);
+	} else
+	{
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
