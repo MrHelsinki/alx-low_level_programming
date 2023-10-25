@@ -14,8 +14,8 @@ int is_palindrome(char *s)
 
 /**
  * _strlen_recursion - func
- * @s: par 
- * Return: return 
+ * @s: par
+ * Return: return
  */
 int _strlen_recursion(char *s)
 {
@@ -25,11 +25,11 @@ int _strlen_recursion(char *s)
 }
 
 /**
- * check_pal - func 
- * @s: par 
- * @i: par 
+ * check_pal - func
+ * @s: par
+ * @i: par
  * @len: par
- * Return: return 
+ * Return: return
  */
 int check_palindrome(char *s, int i, int len)
 {
