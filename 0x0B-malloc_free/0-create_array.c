@@ -12,7 +12,7 @@ char *create_array(unsigned int size, char c)
 {
 	char *ptr;
 
-	int i;
+	unsigned int i;
 
 	i = 0;
 
@@ -26,11 +26,11 @@ char *create_array(unsigned int size, char c)
 
 	while (i < size)
 	{
-		p[i] = c;
+		ptr[i] = c;
 		i++;
 	}
 
-	p[i] = '\0';
+	ptr[i] = '\0';
 
 	return (ptr);
 }
