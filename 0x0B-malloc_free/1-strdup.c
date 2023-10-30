@@ -29,18 +29,12 @@ char *_strdup(char *str)
 		len++;
 
 
-	ptr = (char *) malloc((len + 2) * sizeof(char));
+	ptr = (char *) malloc((len + 1) * sizeof(char));
 	if (ptr == NULL)
 		return (NULL);
 
-	while (*tmp)
-	{
-		ptr[i] = tmp[i];
+	while (ptr[i] = str[i] != '\0')
 		i++;
-	}
-
-	ptr[i] = '\0';
-	ptr[i + 1] = '\n';
 
 	return (ptr);
 }
