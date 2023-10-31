@@ -9,9 +9,35 @@
   *Return: char *
   */
 
+int *_strlen(char *str)
+{
+	int *ptr;
+
+	int len;
+
+	len = 0;
+
+	if (str != NULL)
+	{
+		while (str[len])
+		{
+			len ++;
+		}
+	} else
+	{
+		return (0);
+	}
+
+	ptr = &len;
+
+	return (ptr);
+}
+
 char *str_concat(char *s1, char *s2)
 {
-	int len1, len2, i, y;
+	int *len1, *len2;
+		
+	int i, y;
 
 	char *ptr;
 
@@ -19,11 +45,10 @@ char *str_concat(char *s1, char *s2)
 	len2 = 0;
 	i = 0;
 	y = 0;
-	while (s1[len1])
-		len1++;
-	while (s2[len2])
-		len2++;
-	ptr = malloc((len1 + len2 + 1) * sizeof(char));
+
+	len1 = _strlen(s1);
+	len2 = _strlen(s2);
+	ptr = malloc((*len1 + *len2 + 1) * sizeof(char));
 	if (ptr == NULL)
 		return (NULL);
 	if (s1 != NULL)
