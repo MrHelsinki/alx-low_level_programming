@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * count_word - help func
+ * count - help func
  * @s: par
  * Return: int
  */
