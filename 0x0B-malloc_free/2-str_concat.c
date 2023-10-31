@@ -25,7 +25,7 @@ int *_strlen(char *str)
 		}
 	} else
 	{
-		return (0);
+		return (NULL);
 	}
 
 	ptr = &len;
