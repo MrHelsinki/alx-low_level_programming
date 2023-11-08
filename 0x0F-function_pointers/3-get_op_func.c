@@ -1,13 +1,10 @@
-#include <stdlib.h>
-#include "calc.h"
-
+#include "3-calc.h"
 
 /**
-  *get_op_func - func
-  *@s: par
-  *Return: int
-  */
-
+ * get_op_func - func
+ * @s: par
+ *Return - return
+ */
 int (*get_op_func(char *s))(int, int)
 {
 	op_t ops[] = {
@@ -21,7 +18,8 @@ int (*get_op_func(char *s))(int, int)
 	int i;
 
 	i = 0;
-	while (i < 6)
+
+	while (ops[i].op)
 	{
 		if (strcmp(ops[i].op, s) == 0)
 			return (ops[i].f);
