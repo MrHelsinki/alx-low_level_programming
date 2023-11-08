@@ -1,9 +1,9 @@
 #include "3-calc.h"
 
 /**
- * get_op_func - func
- * @s: par
- *Return - return
+ *get_op_func - func
+ *@s: par
+ *Return: return
  */
 int (*get_op_func(char *s))(int, int)
 {
