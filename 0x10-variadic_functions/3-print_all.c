@@ -10,7 +10,7 @@ void print_all(const char * const format, ...)
 {
 	int len, i;
 	va_list args;
-	char *separator;
+	char *separator, *elem;
 
 	separator = "";
 	len = strlen(format);
@@ -31,7 +31,10 @@ void print_all(const char * const format, ...)
 					printf("%s%f", separator, va_arg(args, double));
 					break;
 				case 's':
-					printf("%s%s", separator, va_arg(args, char *));
+					elem = va_arg(args, char *);
+					if (!elem)
+						elem = "(nil)";
+					printf("%s%s", separator, elem);
 					break;
 				default:
 					i++;
