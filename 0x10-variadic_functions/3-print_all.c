@@ -8,16 +8,16 @@
 
 void print_all(const char * const format, ...)
 {
-	int len, i;
+	int i;
 	va_list args;
 	char *separator, *elem;
 
+	i = 0;
 	separator = "";
-	len = strlen(format);
 	va_start(args, format);
 	if (format)
 	{
-		while (i < len)
+		while (format[i])
 		{
 			switch (format[i])
 			{
@@ -44,7 +44,7 @@ void print_all(const char * const format, ...)
 			i++;
 		}
 	}
-	return;
+
 	va_end(args);
 	printf("\n");
 }
