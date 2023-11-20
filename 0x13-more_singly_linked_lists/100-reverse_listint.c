@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * reverse_listint - func 
+ * reverse_listint - func
  * @head: ptr head
  * Return: ptr
  */
