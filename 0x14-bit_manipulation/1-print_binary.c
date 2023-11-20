@@ -16,13 +16,13 @@ void print_binary(unsigned long int n)
 		digit = n >> i;
 		if (digit & 1)
 		{
-			write(1, &'1', 1);
+			_putchar('1');
 			y++;
 		}
 		else if (y)
-			write(1, &'0', 1);
+			_putchar('0');
 	}
 
 	if (!y)
-		write(1, &'0', 1);
+		_putchar('0');
 }
