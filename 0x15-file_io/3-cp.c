@@ -42,9 +42,9 @@ int main(int argc, char **argv)
 	}
 	if (close(file_from) < 0 || close(file_to) < 0)
 	{
-		if (m < 0)
+		if (file_from < 0)
 			dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", file_from);
-		if (n < 0)
+		if (file_to < 0)
 			dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", file_to);
 		exit(100);
 	}
