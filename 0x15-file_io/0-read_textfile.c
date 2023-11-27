@@ -21,7 +21,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	if (!buffer)
 		return (0);
 
-	data = open(filename, 0_RDONLY);
+	data = open(filename, O_RDONLY);
 
 	check_letters = read(data, buffer, letters);
 	if (check_letters < 0)
@@ -36,7 +36,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	if (printed_chars < 0)
 	{
-		free(buffer)
+		free(buffer);
 		return (0);
 	}
 	free(buffer);
