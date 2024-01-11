@@ -2,7 +2,7 @@
 
 /**
 *print_dlistint - prints all elems of a list
-*h: head of the list
+*@h: head of the list
 *Return: number of elems in the list
 */
 
@@ -15,10 +15,10 @@ size_t print_dlistint(const dlistint_t *h)
 
 	while (current->next != NULL)
 	{
-		printf(current->n);
+		printf("%d\n", current->n);
 		current = h->next;
 		count++;
 	}
 
-	return (count)
+	return (count);
 }
